@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Incapsulation test</title>
+    <script src="node_modules/@webcomponents/webcomponentsjs/webcomponents-lite.js"></script>
+    <link rel="stylesheet" href="node_modules/cleanslate/cleanslate.css">
+    <script type="module" src="h1-sample.js"></script>
+    <script nomodule src="h1-sample-compiled.js"></script>
+    <style>
+    h1 {
+        text-decoration: underline;
+    }
+    </style>
+</head>
+
+<body>
+    <h1>Привет! Я заголовок снаружи Shadow DOM!</h1>
+    <h1-sample>Привет! Я заголовок внутри Shadow DOM!</h1-sample>
+</body>
+
+</html>

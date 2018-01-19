@@ -1,0 +1,33 @@
+{
+  "name": "h1-sample",
+  "description": "Simple web component for testing incapsulation in book.",
+  "version": "1.0.0",
+  "keywords": [
+    "web-components",
+    "WebTutor",
+    "sample"
+  ],
+  "main": "h1-sample.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel h1-sample.js -o h1-sample-compiled.js",
+    "clean": "rimraf node_modules/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maksimyurkov/h1-sample.git"
+  },
+  "author": "Maksim Yurkov <yurkov.maksim.sergeevich@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/maksimyurkov/h1-sample/issues"
+  },
+  "homepage": "https://github.com/maksimyurkov/h1-sample#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1"
+  },
+  "dependencies": {
+    "@webcomponents/webcomponentsjs": "^1.0.22",
+    "cleanslate": "^0.10.1"
+  }
+}
