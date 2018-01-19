@@ -1,4 +1,4 @@
-#h1-sample
+# h1-sample
 
 Simple web component for testing incapsulation in book.
 
